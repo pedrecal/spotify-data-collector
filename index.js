@@ -9,7 +9,7 @@ let aux_token = null;
 let aux_refresh_token = null;
 const client_id = keys.spClientID;
 const client_secret = keys.spClientSecret;
-const redirect_uri = 'http://localhost:5000/callback';
+const redirect_uri = keys.redirectURI;
 const scope = `user-read-private user-read-email user-library-read user-library-modify playlist-read-private playlist-modify-public 
                playlist-modify-private playlist-read-collaborative user-read-recently-played user-top-read user-read-private user-read-email
                user-read-email streaming user-modify-playback-state user-read-currently-playing user-read-playback-state user-follow-modify user-follow-read`;
