@@ -151,5 +151,4 @@ app.get('/history', (req, res) => {
   });
 });
 
-console.log('Listening on 5000');
-app.listen(5000);
+app.listen(process.env.PORT || 5000);
